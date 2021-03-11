@@ -16,6 +16,7 @@ originCamera = OriginCameraInterface.OriginCamera()
 print(f"worker just scanned barcode {myScannedBarCode}")
 [print('...') for x in range(3)]
 
+
 #Assign the scanned barcode to the object
 originCamera.AssignBarCode(myScannedBarCode)
 
